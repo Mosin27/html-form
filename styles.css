@@ -1,0 +1,33 @@
+html, body {
+    background: #f1f1f1;
+    font-family: sans-serif;
+    padding: 1em;
+    font-size: 24px;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    text-align: center;
+    margin: 20px auto;
+}
+
+input, textarea {
+    border: 0; outline:0;
+    padding: 1em;
+    display: block;
+    width: 100%
+ }
+
+ #input-submit {
+    color: white; 
+    background: red;
+ }
+ 
+ textarea {
+     height: 126px;
+ }
+

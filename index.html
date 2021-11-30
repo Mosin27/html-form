@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>HTML Form</title>
+        <link
+          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+          rel="stylesheet"
+          type="text/css"
+        />
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+      </head>
+<body>
+    <h2>Contact Form</h2>
+    <form>
+        <div>
+            <label for="name">First Name:</label>
+            <input 
+                id="name" 
+                type="text" 
+                name="name" 
+                placeholder="Your name..."
+            />
+        </div>
+        <div>
+            <label for="name">Last Name:</label>
+            <input 
+                id="name" 
+                type="text" 
+                name="name" 
+                placeholder="Your last name..."
+            />
+        </div>
+        <div>
+            <label for="email">E-Mail:</label>
+            <input 
+                id="email" 
+                type="text" 
+                name="email" 
+                placeholder="Please enter your E-Mail."
+            />
+        </div>
+        <div>
+            <label for="form-message">Your message:</label>
+            <textarea
+              id="form-message"
+              name="message"
+              autofocus="on"
+              required
+              maxlength="200"
+              placeholder="How can I help you?"
+            ></textarea>
+          </div>
+          <input type="submit" value="Submit" id="input-submit">
+    </form>
+</body>
+</html>
